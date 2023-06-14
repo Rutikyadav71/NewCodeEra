@@ -1,0 +1,139 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /* font-family: Arial, sans-serif; */
+}
+
+form {
+    
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+} 
+/* navbar */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .navbar{
+    display: flex;
+   align-items: center;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  nav{
+    flex: 1;
+    text-align: right;
+  
+  }
+  nav ul{
+    display: inline-block;
+    list-style-type: none;
+  }
+  nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  p{
+    color: #555;
+  }
+  
+  .container{
+    max-width: 1300px;
+    margin-bottom: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    
+    
+  }
+  .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+  }
+  .row li{
+    list-style: none;
+  
+  }
+  .col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+  }
+  .col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+  }
+  .col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+  }
+  
+  .logo img{
+    width: 40px;
+    height: 50px;
+    }
+  .timepass{
+    background-color: rgb(128, 247, 128);
+    border-radius: 10%;
+    padding: 10px 10px;
+    color: black;
+  }
+    .timepass:hover{
+        background-color: rgb(90, 212, 90);
+    }
+  .header{
+      background-color: #d7f9b4;
+      
+  }
+  h1{
+    text-align: center;
+    margin-top: 20px;
+  }
+  

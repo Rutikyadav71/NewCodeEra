@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./Login.css">
+    
+</head>
+<body>
+    <div class="header" style="height: 70px;">
+
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+
+                    <img src="./project images/appstorm.png" class="logo">
+
+                </div>
+                <div class="name">
+                    <h2><a href="./index.html">Code Blox</a></h2>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./Untitled-5.html">Courses</a></li>
+                        <li><a href="./Untitled-3.html">About</a></li>
+                        <li><a href="./contact1.html">Contact</a>
+                        </li>
+                        <li><a href="./Login.html" class="timepass">Log in</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            
+        </div>
+    </div>
+    <form action="login.php" method="POST" id="login-form">
+        <h2>Login Form</h2>
+        <div>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div>
+            <button type="submit">Login</button>
+        </div>
+    </form>
+    <script src="./Login.js"></script>
+</body>
+</html> 
